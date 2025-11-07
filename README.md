@@ -1,7 +1,5 @@
 # Weather Type Classification using SVM
 
-![Weather Types](weather_types.png)
-
 ## Project Introduction
 
 This project aims to predict the weather type based on various atmospheric and environmental factors. Using a dataset containing meteorological data, we build and evaluate several Support Vector Machine (SVM) classification models to determine whether the weather is **Rainy, Sunny, Cloudy, or Snowy**.
@@ -46,6 +44,8 @@ The dataset was loaded and inspected. Exploratory Data Analysis (EDA) was perfor
 * **Pie Chart**: Visualized the distribution of the `season` feature.
 * **Histograms**: Visualized the distributions of `temperature`, `humidity`, and `wind_speed`.
 * **Box Plot**: Visualized the distribution of `precipitation (%)`.
+
+![Feature Histograms](feature_histograms.png)
 
 ### 2. Data Transformation
 To prepare the data for the SVM models, the following preprocessing steps were applied:
